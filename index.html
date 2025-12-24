@@ -4,8 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Euan Campbell</title>
+    <link rel="icon" type="image/webp" href="pc_icon.webp">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
+    <header>
+        <div class="title">
+            <h1>Euan Campbell</h1>
+        </div>
+        <nav>
+            <div class="nav-item active">
+                <button data-section="bio">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="#3d444d"><path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM2 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H2zm6-6a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 2c-2.027 0-3.413.586-4.128 1.283-.737.727-.872 1.467-.872 1.713h10c0-.246-.135-.986-.872-1.713C10.413 10.586 9.027 10 8 10z"/></svg>
+                    Bio
+                </button>
+            </div>
+            <div class="nav-item">
+                <button data-section="portfolio">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="#3d444d"><path d="M.54 3.87L.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.826a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31zM2.19 4a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4H2.19zm4.69-1.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707z"/></svg>
+                    Portfolio
+                </button>
+            </div>
+            <div class="nav-item">
+                <button data-section="resume">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="#3d444d"><path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/><path d="M4.5 12.5a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zm0-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zm0-2a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z"/></svg>
+                    Resume
+                </button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="bio" class="active">
+            <div class="bio-card">
+                <div class="bio-left">
+                    <img class="profile-pic" src="pfp.png" alt="Euan Campbell">
+                    <p class="location">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="#3d444d"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+                        Edinburgh, United Kingdom
+                    </p>
+                    <div class="links">
+                        <a href="https://www.linkedin.com/in/euan-m-campbell/" target="_blank">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/></svg>
+                            LinkedIn
+                        </a>
+                        <a href="https://github.com/Euan-M-Campbell" target="_blank">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+                            GitHub
+                        </a>
+                        <a href="https://huggingface.co/Euan-M-Campbell" target="_blank">
+                            <svg width="16" height="16" viewBox="0 0 120 120" fill="currentColor"><path d="M37.6 75.5c-2.7 0-5.2 1.1-7.1 2.9-1.9 1.9-2.9 4.4-2.9 7.1 0 2.7 1.1 5.2 2.9 7.1 1.9 1.9 4.4 2.9 7.1 2.9s5.2-1.1 7.1-2.9c1.9-1.9 2.9-4.4 2.9-7.1 0-2.7-1.1-5.2-2.9-7.1-1.9-1.8-4.4-2.9-7.1-2.9zm44.8 0c-2.7 0-5.2 1.1-7.1 2.9-1.9 1.9-2.9 4.4-2.9 7.1 0 2.7 1.1 5.2 2.9 7.1 1.9 1.9 4.4 2.9 7.1 2.9 2.7 0 5.2-1.1 7.1-2.9 1.9-1.9 2.9-4.4 2.9-7.1 0-2.7-1.1-5.2-2.9-7.1-1.9-1.8-4.4-2.9-7.1-2.9zM60 0C26.9 0 0 26.9 0 60s26.9 60 60 60 60-26.9 60-60S93.1 0 60 0zm0 110c-27.6 0-50-22.4-50-50S32.4 10 60 10s50 22.4 50 50-22.4 50-50 50zm22-65c-4.4 0-8 3.6-8 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm-44 0c-4.4 0-8 3.6-8 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8z"/></svg>
+                            Hugging Face
+                        </a>
+                        <a href="mailto:euan.campbell.dev@pm.me">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.708 2.825L15 11.105V5.383zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741zM1 11.105l4.708-2.897L1 5.383v5.722z"/></svg>
+                            Email
+                        </a>
+                    </div>
+                </div>
+                <div class="bio-right">
+                    <h2>Summary</h2>
+                    <p>I'm a software engineer with a strong Python background, focused on data engineering and building reliable, well-designed systems. I enjoy working close to the data and designing pipelines, APIs, and tooling that are clean, testable, and easy to reason about.</p>
+                    <p>I was the first engineering hire at an early-stage AI start-up, where I built and maintained open-source tooling for large language model evaluation. This involved full ownership of the work, from architecture and implementation through to documentation and release, while working closely with researchers and product stakeholders in a fast-moving environment.</p>
+                    <p>At the moment, I'm deepening my data engineering skill set, particularly Python, SQL, ETL pipelines, data modelling, and production-ready workflows. I'm especially interested in financial and analytical data, and in turning messy real-world data into something structured and useful.</p>
+                    <p>Longer term, I want to work on data-heavy systems at scale where engineering decisions actually matter. I value clarity, simplicity, and building things that hold up over time.</p>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio">
+            <div class="portfolio-container">
+                <h2>Portfolio</h2>
+                <div class="projects-grid" id="projects-grid"></div>
+            </div>
+        </section>
+        <section id="resume">
+            <div class="resume-container">
+                <img src="CV.png" alt="Euan Campbell CV" class="cv-image">
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Scorebook",
+        "description": "A flexible and extensible framework for evaluating large language models. Supports evaluation datasets from Hugging Face (MMLU-Pro, HellaSwag, CommonSenseQA), built-in and custom metrics including LLM-as-a-judge, hyperparameter sweeping, and adaptive evaluations. Developed at Trismik.",
+        "link": "https://github.com/trismik/scorebook",
+        "tags": ["Python", "MLOps", "LLM Evaluation", "Open Source"]
+    },
+    {
+        "name": "FinETL",
+        "description": "A config-driven Python library for extracting financial data from Yahoo Finance and loading it to various destinations. Define ETL pipelines in YAML to fetch OHLCV price data and financial statements for multiple tickers.",
+        "link": "https://github.com/Euan-M-Campbell/FinETL",
+        "tags": ["Python", "ETL", "Data Engineering", "Finance"]
+    },
+    {
+        "name": "Global Data Interface",
+        "description": "A Python package providing a unified interface to query international time series data from multiple APIs including World Bank, IMF, WTO, and United Nations. Retrieve economic indicators, country data, and statistics through a consistent API with structured data classes.",
+        "link": "https://pypi.org/project/Global-Data-Interface/",
+        "tags": ["Python", "Data Engineering", "API", "Open Source"]
+    },
+    {
+        "name": "Ghibli-Gram",
+        "description": "An Instagram web app clone with the aesthetic style of Studio Ghibli. Built with React to gain experience with the framework. Images created using OpenAI's ChatGPT.",
+        "link": "https://github.com/Euan-M-Campbell/Ghibli-Gram",
+        "tags": ["React", "JavaScript", "Web App"]
+    },
+    {
+        "name": "NetworkM",
+        "description": "A Mojo package for the creation, manipulation, and analysis of networks, inspired by Python's NetworkX. Supports graph creation, node/edge manipulation, graph generators (path, cycle, complete), and algorithms like shortest path.",
+        "link": "https://github.com/Euan-M-Campbell/NetworkM",
+        "tags": ["Mojo", "Graphs", "Algorithms", "Open Source"]
+    }
+]
